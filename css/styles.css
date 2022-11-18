@@ -1,52 +1,90 @@
-*{
+* {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-body{
-    background-image: url("/img/wallapaper.png");    
+body {
+    background-image: url("/img/wallapaper.png");
     background-size: cover;
     background-position: left top;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    margin:0;
+    margin: 0;
 }
-video{
-   min-width: 100%;
-   max-width: 100%;
-   position: fixed;
-   top:50%;
-   left:50%;
-   transform: translateX(-50%) translateY(-50%);
-   z-index: -1;
+#wallpaper{
+    
 }
-.sims_div{
-   background-color:rgb(21, 10, 105) ; 
-   border: 6px outset rgb(98, 98, 172);
-   position: relative;
-   width: 40px;
+video {
+    min-width: 100%;
+    max-width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
 }
-.sims_div h2,h3,h4, h5{
-    color:rgb(218, 218, 218);
+
+.sims_div {
+    background-color: rgb(21, 10, 105);
+    border: 6px outset rgb(98, 98, 172);
+    margin-top:5%;
+    width: 40px;
 }
+
+.sims_div h1,h2,
+h3,
+h4,
+h5, p {
+    color: rgb(218, 218, 218);
+}
+
 nav {
     background: rgb(73, 79, 192);
     background: linear-gradient(90deg, rgb(68, 61, 108) 0%, rgb(76, 61, 144) 27%, rgba(0, 0, 71, 1) 100%);
     border-radius: 4em;
+    height: 70px;
+    position:fixed;
+    width: 100%;
+    z-index: 99;
+    top:0;
 }
-nav img{
-    max-width: 80px;
+
+#menuButton{
+background-color: #0c7bf100;
+border: none;
+}
+#menuButton:hover{
+    background-color: rgb(21, 10, 105);
+    border: 6px outset rgb(98, 98, 172);
+    }
+nav button {
+    padding: 0;
+    margin: 0;
+    margin-right: 2em;
+}
+
+nav ul li img {
+    width: 170%;
+    padding: 0;
+    position:static;
+    cursor: pointer;
+}
+
+#logo {
+    max-width: 90px;
+    margin-top: 5px;
     margin-left: 2em;
+    padding: 5px;
 }
 
 .white {
-    color:rgb(218, 218, 218);
+    color: rgb(218, 218, 218);
 }
 
 .white a {
     color: #53C0FB;
 }
 
-button.btn {   
+button.btn {
     background-color: rgb(41, 105, 179);
     border: 4px outset #4d92dc;
     padding: 10px 20px;
@@ -54,18 +92,24 @@ button.btn {
     border-radius: 1em;
     transform: skewX(-25deg);
     cursor: pointer;
+    min-width: 14em;
+    margin-right: 2em;
 }
-.btn a{
-    color:rgb(218, 218, 218);
-    text-decoration:none;
+
+.btn a {
+    text-decoration: none;
 }
-span:hover{
-    color:rgb(176, 176, 176);
+
+.btn span:hover {
+    color: rgb(255, 255, 255);
 }
-span:active {
+
+.btn span:active {
     color: rgb(0, 217, 255);
-  }
-button.btn span {
+}
+
+.btn span {
+    color: rgb(218, 218, 218);
     display: block;
     transform: skewX(25deg);
 }

@@ -11,55 +11,55 @@
 </head>
 
 <body>
-    <video src="/img/old_town.mp4" autoplay loop poster="/img/wallapaper.png"></video>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-2 d-block d-flex">            
-        <a src="index.html"><img src="./img/the_sims_logo.png"></a>
-        <div class="container">
-            <ul class="navbar-nav w-100 justify-content-between">
+    <video id="wallpaper" autoplay loop poster="/img/wallapaper.png"></video>
+    <nav class="navbar-expand-lg navbar-dark d-flex">
+        <div class="col d-flex">
+            <a class="col-1" href="/index.html"><img id="logo" src="./img/the_sims_logo.png"></a>
+            <button class="col-6 white" id="menuButton" data-bs-toggle="collapse" aria-expanded="false"
+                aria-controls="collapseExample" role="button" href="#collapseMenu">Menu Principal</button>
+            <ul class="navbar-nav justify-content-between mt-0 pt-0 col-5 float-end">
                 <li class="nav-item">
-                    <a class="nav-link" href="">Secretos</a>
-                </li>
-                <li class="nav-item"> 
-                    <a class="nav-link" href="">Trucos</a>
-                </li>
-                <li class="nav-item"> 
-                    <a class="nav-link" href=""><img src="./img/old_town.png" alt=""></a>
-                </li>
-                <li class="nav-item"> 
-                    <a class="nav-link"href="">Eventos</a>
+                    <a class="" href=""><img id="old_town" src="./img/old_town.png" alt=""></a>
                 </li>
                 <li class="nav-item">
+                    <a class="" href=""><img id="downtown" src="./img/downtown.png" alt=""></a>
+                </li>
+                <li class="nav-item">
+                    <a class="" href=""><img id="vacation" src="./img/vacation.png" alt=""></a>
+                </li>
+                <li class="nav-item">
+                    <a class="" href=""><img id="study_city" src="./img/study_city.png" alt=""></a>
+                </li>
+                <li class="nav-item">
+                    <a class="" href=""><img id="magic_town" src="./img/magic_town.png" alt=""></a>
+                </li>
+                <li class="nav-item col-5">
+                    <a class="nav-link" href="/info/info.html">Informacion del Proyecto</a>
                 </li>
             </ul>
-
         </div>
-    </nav>
+
+    </nav><div class="collapse sims_div container" id="collapseMenu">
+            <h4>Menu desplegable en Beta</h4>
+            <button class="btn" data-bs-toggle="collapse" aria-expanded="false"
+                aria-controls="collapseExample" role="button" href="#collapseMenu"><span>Cerrar</span></button>
+        </div>
     <main>
-        <div class="container p-4 mt-5 sims_div">
-            <h2>Bienvenido a la pagina tecnica de los Sims 1.</h2>
-            <h5>El uso y conocimientos del material de este sitio corre bajo la responsabilidad del lector, el objetivo del sitio es difundir la existencia de los mismos.</h5>
-            <h4>Magimonedas</h4>
-            <h4>Simoleones</h4>
-            <h4>Amistades</h4>
-            <h4>Ingredientes Magicos</h4>
-            <h4>Hechizos</h4>
-            <h4>Habilidades</h4>
-            <h4>Personalidad</h4>
-            <button class="btn"><a href="/Trucos/magimonedas.html"><span>Magimonedas</span></a></button>
-            <button class="btn"><a href="/Trucos/simoleones.html"><span>Simoleones</span></a></button>
+        
+        <div class="container p-4 sims_div">
+            <h1>Bienvenido a la pagina tecnica de los Sims 1.</h2>
+                <br>
+                <h4>Aqui encontraras trucos, secretos, misterios, consejos, caracteristicas y mucho mas!!.</h4>
+                <br>
+                <h5>Simoleones,Amistades,Ingredientes Magicos, Hechizos, Talismanes, Personalidad, Habilidades.</h5>
+               
+                <p>El uso y conocimientos del material de este sitio corre bajo la responsabilidad del lector, el
+                    objetivo
+                    del sitio es difundir la existencia de los mismos.</p>
+                <button class="btn"><a href="/Trucos/magimonedas.html"><span>Magimonedas</span></a></button>
+                <button class="btn"><a href="/Trucos/simoleones.html"><span>Simoleones</span></a></button>
         </div>
     </main>
-    <!--
-   <footer class="text-muted navbar navbar-expand-lg bg-dark p-2 d-block">
-        <div class="container">
-          <div class="float-end col">
-            <h4 class="white">
-              Proyecto realizado por Rodrigo Aguilar <a href="https://www.linkedin.com/in/rodrigo-aguilar-91b09a252/"
-                target="_blank">Linkedin</a> <a href="https://github.com/rodrigoaguilar11" target="_blank">GitHub</a></h4>
-            <a href="#">Volver arriba</a>
-          </div>
-      </footer>
-    -->
 </body>
 <script src="/script/script.js"></script>
 <script src="/script/bootstrap.bundle.min.js"></script>
