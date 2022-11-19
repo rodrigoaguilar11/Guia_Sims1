@@ -15,7 +15,9 @@
     <nav class="navbar-expand-lg navbar-dark d-flex">
         <div class="col d-flex">
             <a class="col-1" href="../index.html"><img id="logo" src="../img/the_sims_logo.png"></a>
-            <button class="col-6 white" id="menuButton">Menu Principal</button>
+            <button class="col-2 btn" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseExample"
+                role="button" href="#collapseMenu"><span>Menu Principal</span></button>
+            <div class="col-4"></div>
             <ul class="navbar-nav justify-content-between mt-0 pt-0 col-5 float-end">
                 <li class="nav-item">
                     <img id="old_town" src="../img/old_town.png" alt="old_town.png">
@@ -39,12 +41,21 @@
         </div>
     </nav>
     <main>
+        <div class="collapse sims_div container" id="collapseMenu">
+            <h4>Menu desplegable en Beta</h4>
+            <button class="btn" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseExample"
+                role="button" href="#collapseMenu"><span>Cerrar</span></button>
+        </div>
         <div class="container p-4 sims_div">
             <h2>Conseguir Magimonedas</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/U_Bi5A_XFJg"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+            <div class="center">
+                <h4>CONSEGUIR MAGIMONEDAS FORMA DEFINITIVA Sims Magia Potagia
+                </h4>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/U_Bi5A_XFJg"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
             <br>
             <button class="btn"><a href="../index.html"><span>Volver</span></a></button>
         </div>

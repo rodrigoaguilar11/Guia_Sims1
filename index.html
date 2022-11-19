@@ -15,20 +15,21 @@
     <nav class="navbar-expand-lg navbar-dark d-flex">
         <div class="col d-flex">
             <a class="col-1" href="index.html"><img id="logo" src="img/the_sims_logo.png"></a>
-            <button class="col-6 white" id="menuButton" data-bs-toggle="collapse" aria-expanded="false"
-                aria-controls="collapseExample" role="button" href="#collapseMenu">Menu Principal</button>
+            <button class="col-2 btn" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseExample"
+                role="button" href="#collapseMenu"><span>Menu Principal</span></button>
+            <div class="col-4"></div>
             <ul class="navbar-nav justify-content-between mt-0 pt-0 col-5 float-end">
                 <li class="nav-item">
                     <img id="old_town" src="img/old_town.png" alt="old_town.png">
                 </li>
                 <li class="nav-item">
-                    <img id="downtown"src="img/downtown.png" alt="downtown.png">
+                    <img id="downtown" src="img/downtown.png" alt="downtown.png">
                 </li>
                 <li class="nav-item">
-                <img id="vacation" src="img/vacation.png" alt="vacation.png">
+                    <img id="vacation" src="img/vacation.png" alt="vacation.png">
                 </li>
                 <li class="nav-item">
-                   <img id="study_city" src="img/study_city.png" alt="study_city.png">
+                    <img id="study_city" src="img/study_city.png" alt="study_city.png">
                 </li>
                 <li class="nav-item">
                     <img id="magic_town" src="img/magic_town.png" alt="magic_town.png">
@@ -40,25 +41,25 @@
         </div>
 
     </nav>
-    <div class="collapse sims_div container" id="collapseMenu">
-        <h4>Menu desplegable en Beta</h4>
-        <button class="btn" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseExample"
-            role="button" href="#collapseMenu"><span>Cerrar</span></button>
-    </div>
     <main>
-
+        <div class="collapse sims_div container" id="collapseMenu">
+            <h4>Menu desplegable en Beta</h4>
+            <button class="btn" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseExample"
+                role="button" href="#collapseMenu"><span>Cerrar</span></button>
+        </div>
         <div class="container p-4 sims_div">
             <h1>Bienvenido a la pagina tecnica de los Sims 1.</h2>
                 <br>
-                <h4>Aqui encontraras trucos, secretos, misterios, consejos, caracteristicas y mucho mas!!.</h4>
-                <br>
-                <h5>Simoleones,Amistades,Ingredientes Magicos, Hechizos, Talismanes, Personalidad, Habilidades.</h5>
-
-                <p>El uso y conocimientos del material de este sitio corre bajo la responsabilidad del lector, el
-                    objetivo
-                    del sitio es difundir la existencia de los mismos.</p>
-                <button class="btn"><a href="Trucos/magimonedas.html"><span>Magimonedas</span></a></button>
-                <button class="btn"><a href="Trucos/simoleones.html"><span>Simoleones</span></a></button>
+                <div class="center">
+                    <h4>Aqui encontraras trucos, secretos, misterios, consejos, caracteristicas y mucho mas!!.</h4>
+                    <br>
+                    <h5>Simoleones,Amistades,Ingredientes Magicos, Hechizos, Talismanes, Personalidad, Habilidades.</h5>
+                    <p>El uso y conocimientos del material de este sitio corre bajo la responsabilidad del lector, el
+                        objetivo
+                        del sitio es difundir la existencia de los mismos.</p>
+                </div>
+                <button class="btn"><a href="trucos/magimonedas.html"><span>Magimonedas</span></a></button>
+                <button class="btn"><a href="trucos/simoleones.html"><span>Simoleones</span></a></button>
         </div>
     </main>
 </body>
