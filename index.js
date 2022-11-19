@@ -1,11 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
+    setWallpaper();
     const wallpaper = document.getElementById("wallpaper");
     if (localStorage.getItem("wallpaper") == undefined) {
-        localStorage.setItem("wallpaper", "old_town")
+        localStorage.setItem("wallpaper", "old_town");
         setWallpaper();
     } else {
         setWallpaper();
     }
+
     document.getElementById("old_town").addEventListener("click", () => {
         localStorage.setItem("wallpaper", "old_town");
         setWallpaper();
@@ -30,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function setWallpaper() {
-    let actualWallpaper = localStorage.getItem("wallpaper");
-    wallpaper.poster = "../img/" + actualWallpaper + "_poster.png";
-    wallpaper.src = "../img/" + actualWallpaper + ".mp4";
+    let actualWallpaper = localStorage.getItem("wallpaper")
+    wallpaper.poster = "img/" + actualWallpaper + "_poster.png";
+    wallpaper.src = "img/" + actualWallpaper + ".mp4";
 }
