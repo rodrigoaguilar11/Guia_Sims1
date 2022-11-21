@@ -2,61 +2,58 @@
 <html lang="es">
 
 <head>
+    <title>Guia Sims 1 - Simoleones</title>
+    <link rel="icon" href="../img/icon.ico">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link href="../css/styles.css" rel="stylesheet">
     <link href="../css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
-    <video id="wallpaper" autoplay loop></video>
+    <img class="d-lg-none d-md-block d-sm-block" id="wallpaper_mobile" alt="">
+    <video class="d-none d-lg-block" id="wallpaper" autoplay loop></video>
     <nav class="navbar-expand-lg navbar-dark d-flex">
-        <div class="col d-flex">
-            <a class="col-1" href="../index.html"><img id="logo" src="../img/the_sims_logo.png"></a>
-            <button class="col-2 btn" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseExample"
-                role="button" href="#collapseMenu"><span>Menu Principal</span></button>
-            <div class="col-4"></div>
-            <ul class="navbar-nav justify-content-between mt-0 pt-0 col-5 float-end">
-                <li class="nav-item">
-                    <img id="old_town" src="../img/old_town.png" alt="old_town.png">
-                </li>
-                <li class="nav-item">
-                    <img id="downtown" src="../img/downtown.png" alt="downtown.png">
-                </li>
-                <li class="nav-item">
-                    <img id="vacation" src="../img/vacation.png" alt="vacation.png">
-                </li>
-                <li class="nav-item">
-                    <img id="study_city" src="../img/study_city.png" alt="study_city.png">
-                </li>
-                <li class="nav-item">
-                    <img id="magic_town" src="../img/magic_town.png" alt="magic_town.png">
-                </li>
-                <li class="nav-item col-5">
-                    <a class="nav-link" href="../info/info.html">Informacion del Proyecto</a>
-                </li>
-            </ul>
+        <div class="col-12 d-flex mt-0 pt-0">
+            <div class="col-lg-4 col-md-8 col-sm-7 d-flex">
+                <a href="../index.html"><img id="logo" src="../img/the_sims_logo.png"></a>
+                <button class="btn" style="margin-left: 10px;" data-bs-toggle="collapse" aria-expanded="false"
+                    aria-controls="collapseExample" role="button" href="#collapseMenu"><span>Menu
+                        Principal</span></button>
+            </div>
+            <div class="travel_bar col-6 d-none d-lg-block">
+                <img id="old_town" src="../img/old_town.png" alt="old_town.png">
+                <img id="downtown" src="../img/downtown.png" alt="downtown.png">
+                <img id="vacation" src="../img/vacation.png" alt="vacation.png">
+                <img id="study_city" src="../img/study_city.png" alt="study_city.png">
+                <img id="magic_town" src="../img/magic_town.png" alt="magic_town.png">
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-5 mt-0 pt-0 d-flex">
+                <button class="btn"><a href="../info/info.html"><span>Acerca de</span></a></button>
+            </div>
         </div>
-    </nav>
-    <main>
-        <div class="collapse sims_div container" id="collapseMenu">
-            <h4>Menu desplegable en Beta</h4>
+        <div class="collapse sims_div p-4" id="collapseMenu">
+            <button class="btn"><a href="../index.html"><span>Inicio</span></a></button>    
+            <button class="btn"><a href="../info/info.html"><span>Acerca del proyecto</span></a></button>
             <button class="btn" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseExample"
                 role="button" href="#collapseMenu"><span>Cerrar</span></button>
         </div>
-        <div class="container p-4 sims_div">
-            <h2>Conseguir Simoleones</h2>
-            <div class="center">
-                <h4>Simoleones y Magimonedas | Sims 1 Magia Potagia</h4>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/iJvi6O_qCR0"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+    </nav>
+    <main>
+        <div class="container main">
+            <div class="p-4 sims_div">
+                <h2>Conseguir Simoleones</h2>
+                <div class="center">
+                    <h4>Simoleones y Magimonedas | Sims 1 Magia Potagia</h4>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/iJvi6O_qCR0"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <br>
+                <button class="btn"><a href="../index.html"><span>Volver</span></a></button>
             </div>
-            <br>
-            <button class="btn"><a href="../index.html"><span>Volver</span></a></button>
         </div>
     </main>
 </body>

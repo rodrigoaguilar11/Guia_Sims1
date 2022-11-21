@@ -2,84 +2,84 @@
 <html lang="es">
 
 <head>
+    <title>Guia Sims 1 - Info</title>
+    <link rel="icon" href="../img/icon.ico">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link href="../css/styles.css" rel="stylesheet">
     <link href="../css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
-    <video id="wallpaper" autoplay loop></video>
+    <img class="d-lg-none d-md-block d-sm-block" id="wallpaper_mobile" alt="">
+    <video class="d-none d-lg-block" id="wallpaper" autoplay loop></video>
     <nav class="navbar-expand-lg navbar-dark d-flex">
-        <div class="col d-flex">
-            <a class="col-1" href="../index.html"><img id="logo" src="../img/the_sims_logo.png"></a>
-            <button class="col-2 btn" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseExample"
-                role="button" href="#collapseMenu"><span>Menu Principal</span></button>
-            <div class="col-4"></div>
-            <ul class="navbar-nav justify-content-between mt-0 pt-0 col-5 float-end">
-                <li class="nav-item">
-                    <img id="old_town" src="../img/old_town.png" alt="old_town.png">
-                </li>
-                <li class="nav-item">
-                    <img id="downtown" src="../img/downtown.png" alt="downtown.png">
-                </li>
-                <li class="nav-item">
-                    <img id="vacation" src="../img/vacation.png" alt="vacation.png">
-                </li>
-                <li class="nav-item">
-                    <img id="study_city" src="../img/study_city.png" alt="study_city.png">
-                </li>
-                <li class="nav-item">
-                    <img id="magic_town" src="../img/magic_town.png" alt="magic_town.png">
-                </li>
-                <li class="nav-item col-5">
-                    <a class="nav-link" href="info.html">Informacion del Proyecto</a>
-                </li>
-            </ul>
+        <div class="col-12 d-flex mt-0 pt-0">
+            <div class="col-lg-4 col-md-8 col-sm-7 d-flex">
+                <a href="../index.html"><img id="logo" src="../img/the_sims_logo.png"></a>
+                <button class="btn" style="margin-left: 10px;" data-bs-toggle="collapse" aria-expanded="false"
+                    aria-controls="collapseExample" role="button" href="#collapseMenu"><span>Menu
+                        Principal</span></button>
+            </div>
+            <div class="travel_bar col-6 d-none d-lg-block">
+                <img id="old_town" src="../img/old_town.png" alt="old_town.png">
+                <img id="downtown" src="../img/downtown.png" alt="downtown.png">
+                <img id="vacation" src="../img/vacation.png" alt="vacation.png">
+                <img id="study_city" src="../img/study_city.png" alt="study_city.png">
+                <img id="magic_town" src="../img/magic_town.png" alt="magic_town.png">
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-5 mt-0 pt-0 d-flex">
+                <button class="btn"><a href="info.html"><span>Acerca de</span></a></button>
+            </div>
         </div>
-    </nav>
-    <main>
-        <div class="collapse sims_div container" id="collapseMenu">
-            <h4>Menu desplegable en Beta</h4>
+        <div class="collapse sims_div p-4" id="collapseMenu">
+            <button class="btn"><a href="../index.html"><span>Inicio</span></a></button>    
+            <button class="btn"><a href="../info/info.html"><span>Acerca del proyecto</span></a></button>
             <button class="btn" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseExample"
                 role="button" href="#collapseMenu"><span>Cerrar</span></button>
         </div>
-        <div class="container p-4 sims_div">
-            <h1>Informacion del proyecto</h1>
-            <br>
-            <div class="col-12 d-flex">
+    </nav>
+    <main>
+        <div class="container main">
+            <div class="p-4 sims_div">
+                <h1>Informacion del proyecto</h1>
                 <br>
-                <div class="col-6">
-                    <h4>Realizado por Rodrigo Aguilar 2022.</h4>
-                    <h4 class="white">
-                        <a href="https://www.linkedin.com/in/rodrigo-aguilar-91b09a252/" target="_blank">Linkedin</a>,
-                        <a href="https://github.com/rodrigoaguilar11" target="_blank">GitHub</a>.
-                    </h4>
+                <div class="col-12 d-flex">
                     <br>
-                    <a href="https://www.linkedin.com/in/rodrigo-aguilar-91b09a252/" target="_blank"><img
-                            src="./linkedIn.png" alt="github" style="width: 100px;"></a>
-                    <a href="https://github.com/rodrigoaguilar11" target="_blank" style="margin-left:1em ;"><img
-                            src="./Github.png" alt="github" style="width: 100px;"></a>
+                    <div class="col-6 p-1">
+                        <h4>Realizado por Rodrigo Aguilar 2022.</h4>
+                        <h4 class="white">
+                            <a href="https://www.linkedin.com/in/rodrigo-aguilar-91b09a252/"
+                                target="_blank">Linkedin</a>,
+                            <a href="https://github.com/rodrigoaguilar11" target="_blank">GitHub</a>.
+                        </h4>
+                        <br>
+                        <a href="https://www.linkedin.com/in/rodrigo-aguilar-91b09a252/" target="_blank"><img
+                                src="./linkedIn.png" alt="github" style="width: 100px;"></a>
+                        <a href="https://github.com/rodrigoaguilar11" target="_blank" style="margin-left:1em ;"><img
+                                src="./Github.png" alt="github" style="width: 100px;"></a>
+                    </div>
+                    <div class="col-6 p-1">
+                        <h4>Complementando la Informacion difundida en mi</h4>
+                        <h4 class="white">
+                            <a href="" target="_blank">Canal de Youtube</a>.
+                        </h4>
+                        <br>
+                        <a href="https://www.youtube.com/channel/UCPqGCgi3vwvp24XImnEytgw" target="_blank"><img
+                                src="youtube.png" alt="youtube" style="width: 100px;"></a>
+                    </div>
                 </div>
-                <div class="col-6">
-                    <h4>Complementando la Informacion difundida en mi</h4>
-                    <h4 class="white">
-                        <a href="" target="_blank">Canal de Youtube</a>.
-                    </h4>
+                <br>
+                <h5 class="center">Es un sitio donde el objetivo es difundir material relacionado con el Videojuego The
+                    Sims 1, realizado
+                    con un diseño simulando la interfaz del mismo, la idea es darle a los usuarios una ambientación
+                    familiar
+                    y ofrecer contenido de calidad sobre dicho tema de interés.</h5>
+                <h5>Inicio del proyecto 15/11/2022.</h4>
                     <br>
-                    <a href="https://www.youtube.com/channel/UCPqGCgi3vwvp24XImnEytgw" target="_blank"><img
-                            src="youtube.png" alt="youtube" style="width: 100px;"></a>
-                </div>
+                    <button class="btn"><a href="../index.html"><span pan>Volver</span></a></button>
             </div>
-            <br>
-            <h5 class="center">Es un sitio donde el objetivo es difundir material relacionado con el Videojuego The Sims 1, realizado
-                con un diseño simulando la interfaz del mismo, la idea es darle a los usuarios una ambientación familiar
-                y ofrecer contenido de calidad sobre dicho tema de interés.</h5>
-            <h5>Inicio del proyecto 15/11/2022.</h4>
-            <br>
-            <button class="btn"><a href="../index.html"><span  pan>Volver</span></a></button>
         </div>
     </main>
 </body>
