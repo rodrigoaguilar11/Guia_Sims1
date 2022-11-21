@@ -59,6 +59,7 @@ nav {
     background-color: rgb(21, 10, 105);
     border: 6px outset rgb(98, 98, 172);
     display: block;
+    margin-bottom: 2em;
 }
 
 .center {
