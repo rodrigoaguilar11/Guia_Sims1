@@ -48,11 +48,13 @@ nav {
     position: fixed;
     top: 0;
 }
-#collapseMenu{
-    position:fixed ; 
+
+#collapseMenu {
+    position: fixed;
     margin: 4.5em;
     max-width: 580px;
 }
+
 .sims_div {
     background-color: rgb(21, 10, 105);
     border: 6px outset rgb(98, 98, 172);
@@ -63,7 +65,12 @@ nav {
     text-align: center;
 }
 
-.sims_div h1,h2,h3,h4,h5,p {
+.sims_div h1,
+h2,
+h3,
+h4,
+h5,
+p {
     color: rgb(218, 218, 218);
 }
 
@@ -99,6 +106,10 @@ button.btn {
     cursor: pointer;
     min-width: 10em;
     margin-right: 2em;
+}
+
+.sims_div .btn {
+    margin-top: .5em;
 }
 
 .btn a {
