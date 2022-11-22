@@ -21,6 +21,8 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="collapse sims_div p-4" id="collapseMenu">
     <button class="btn"><a href="../index.html"><span>Inicio</span></a></button>
     <button class="btn"><a href="../info/info.html"><span>Acerca de</span></a></button>
+    <button class="btn"><a href="../fondo/fondo.html"><span>Ver Fondo</span></a></button>
+
     <button class="btn" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseExample"
         role="button" href="#collapseMenu"><span>Cerrar</span></button>
 </div>
